@@ -23,7 +23,7 @@ export function Home() {
             <p>
               Aqui você terá toda assistência que precisa <br />
               com materiais desenvolvido por <strong>mestres e
-                doutores<br /> em matemática</strong>
+                doutores em matemática</strong>
             </p>
             <button>
               <p>Veja nossos planos</p>

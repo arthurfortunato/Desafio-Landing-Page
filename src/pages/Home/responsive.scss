@@ -9,5 +9,58 @@
         url(../../assets/homeCompass.svg) 55% 14% no-repeat, url(../../assets/homeBackground.svg) 98% 42% no-repeat,
         url(../../assets/homeMenuRectangle.png) 2.5% 35% no-repeat;
     }
+    @media (max-width: 1310px) {
+      justify-content: center;
+      background: none;
+    }
+    @media (max-width: 906px) {
+      .menu-lateral {
+        padding-left: 0;
+        padding-top: 170px;
+
+        .header-menu {
+          display: flex;
+          flex-direction: column;
+
+          img {
+            padding-bottom: 23px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+
+        .body-menu {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h1 {
+            font-size: 40px;
+            text-align: center;
+          }
+
+          > p {
+            font-size: 12px;
+            width: 314px;
+            height: 45px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 0.38px;
+          }
+
+          button {
+            width: 294px;
+            height: 45.85px;
+            margin-top: 95px;
+
+            p {
+              font-size: 13.49px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
   }
 }
