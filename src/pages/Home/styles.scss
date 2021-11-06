@@ -1,15 +1,23 @@
 #home {
+  width: 100%;
+  height: 100vh;
+  background-color: #252160;
+
   main {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: #252160;
+    height: calc(100% - 79px);
+
+    background: url(../../assets/homeIllustrationBoy.svg) 78% 47% no-repeat,
+      url(../../assets/homePencil.svg) 93.7% 52% no-repeat, url(../../assets/homeNotesPencilBlue.svg) 58% 40% no-repeat,
+      url(../../assets/homeMessages.svg) 85% 75% no-repeat,
+      url(../../assets/homeNotesPencilOrange.svg) 88% 18% no-repeat, url(../../assets/homeCompass.svg) 60% 18% no-repeat,
+      url(../../assets/homeBackground.svg) 98% 42% no-repeat, url(../../assets/homeMenuRectangle.png) 2.5% 35% no-repeat;
 
     .menu-lateral {
       display: flex;
       flex-direction: column;
-      margin-top: 208px;
-      margin-left: 120px;
+      padding-top: 208px;
+      padding-left: 120px;
 
       .header-menu {
         display: flex;
@@ -18,7 +26,7 @@
         img {
           width: 50.02px;
           height: 36.06px;
-          margin-right: 23px;
+          padding-right: 23px;
         }
         p {
           font: 700 20.6px "Inter", sans-serif;
@@ -66,11 +74,17 @@
             font: 700 17.45px "Inter", sans-serif;
             color: #252160;
             letter-spacing: -0.618281;
-            margin-right: 32.57px;
+            padding-right: 32.57px;
             flex: none;
           }
         }
       }
+    }
+
+    .images {
+      display: flex;
+      height: 656.83px;
+      width: 586.23px;
     }
   }
 }

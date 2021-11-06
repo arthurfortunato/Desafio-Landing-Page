@@ -3,13 +3,14 @@ import arrow from '../../assets/homeArrow.svg';
 
 import { Navbar } from '../../components/Navbar';
 
-import './styles.scss'
+import './styles.scss';
+import './responsive.scss';
 
 export function Home() {
   return (
     <div id="home">
+      <Navbar />
       <main>
-        <Navbar />
         <div className="menu-lateral">
           <div className="header-menu">
             <img src={logoMenuLateral} alt="Logo Menu Lateral" />
