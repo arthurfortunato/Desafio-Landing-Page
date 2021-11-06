@@ -1,7 +1,9 @@
 import './styles/global.scss';
 
+import { Home } from './pages/Home';
+
 export function App() {
   return (
-    <h1>Iniciando o projeto com React!</h1>
+    <Home />
   );
 }
