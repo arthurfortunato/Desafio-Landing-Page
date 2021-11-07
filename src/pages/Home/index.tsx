@@ -2,6 +2,7 @@ import logoMenuLateral from '../../assets/homeLogoLateral.svg';
 import arrow from '../../assets/homeArrow.svg';
 
 import { Navbar } from '../../components/Navbar';
+import { Landing2 } from '../Landing2';
 
 import './styles.scss';
 import './responsive.scss';
@@ -32,6 +33,7 @@ export function Home() {
           </div>
         </div>
       </main>
+      <Landing2 />
     </div>
   )
 }

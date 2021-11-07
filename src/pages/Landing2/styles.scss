@@ -1,0 +1,104 @@
+#landing2 {
+  height: 100vh;
+  width: 100%;
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 58px;
+
+    > img {
+      width: 1270px;
+      height: 164px;
+    }
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .box-lateral {
+      display: flex;
+
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 0px;
+
+        > img {
+          width: 67.79px;
+          height: 403.63px;
+          padding-left: 112px;
+        }
+      }
+
+      .content {
+        h1 {
+          font: 600 22px "Inter", sans-serif;
+          color: #252160;
+          height: 31px;
+          width: 344px;
+          padding-left: 212px;
+        }
+
+        > p {
+          font: 400 19px "Inter", sans-serif;
+          color: #7b7b7b;
+          line-height: 30.12px;
+          padding-top: 9px;
+          padding-left: 212px;
+        }
+
+        .p1 {
+          height: 121.21px;
+          width: 489.54px;
+          margin-bottom: 15.78px;
+        }
+
+        .p2 {
+          height: 101px;
+          width: 403px;
+          margin-bottom: 17px;
+        }
+
+        .p3 {
+          height: 90.61px;
+          width: 460.72px;
+        }
+
+        button {
+          width: 313px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px 116px 15px;
+          background: #252160;
+          box-shadow: -1.16333px 1.16333px 6.98px rgba(0, 0, 0, 0.26);
+          border-radius: 6px;
+          margin-top: 44px;
+          margin-left: 112px;
+          cursor: pointer;
+
+          p {
+            font: 700 17.45px "DM Sans", sans-serif;
+            color: #fff;
+            height: 23px;
+            width: 157px;
+            text-align: center;
+            letter-spacing: -0.618281px;
+            flex: none;
+            margin-right: 24px;
+          }
+
+          img {
+            width: 18.61px;
+            height: 16.29;
+          }
+        }
+      }
+    }
+  }
+}

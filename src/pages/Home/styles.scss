@@ -1,7 +1,7 @@
 #home {
   width: 100%;
-  height: 100vh;
   background-color: #252160;
+  height: 100vh;
 
   main {
     display: flex;
@@ -41,6 +41,10 @@
           color: #fff;
           margin-top: 26px;
           letter-spacing: -0.01em;
+
+          strong {
+            color: #3affe5;
+          }
         }
 
         > p {
@@ -49,6 +53,8 @@
           line-height: 29px;
           margin-top: 32px;
           letter-spacing: 0.38px;
+          width: 523px;
+          height: 87px;
         }
 
         button {
