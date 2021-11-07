@@ -3,6 +3,7 @@ import arrow from '../../assets/homeArrow.svg';
 
 import { Navbar } from '../../components/Navbar';
 import { Landing2 } from '../Landing2';
+import { Landing3 } from '../Landing3';
 
 import './styles.scss';
 import './responsive.scss';
@@ -34,6 +35,7 @@ export function Home() {
         </div>
       </main>
       <Landing2 />
+      <Landing3 />
     </div>
   )
 }
