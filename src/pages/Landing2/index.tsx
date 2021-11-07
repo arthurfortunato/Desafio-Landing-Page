@@ -41,7 +41,7 @@ export function Landing2() {
           </div>
         </div>
         <aside>
-          <img src={teenager} alt="Teenager" />
+          <img src={teenager} alt="Teenager" className="teenager" />
         </aside>
       </div>
     </div>

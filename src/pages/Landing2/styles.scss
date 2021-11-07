@@ -11,12 +11,13 @@
     > img {
       width: 1270px;
       height: 164px;
+      overflow: hidden;
     }
   }
 
   .main-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     .box-lateral {
@@ -98,6 +99,17 @@
             height: 16.29;
           }
         }
+      }
+    }
+
+    aside {
+      .teenager {
+        width: 691px;
+        height: 738px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-left: 24.28px;
       }
     }
   }
