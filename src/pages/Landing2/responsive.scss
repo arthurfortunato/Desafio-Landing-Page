@@ -133,6 +133,15 @@
           @media (max-width: 658px) {
             margin-left: 0;
           }
+          @media (max-width: 567px) {
+            width: 297.35px;
+            height: 57px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            box-shadow: -1.10517px 1.10517px 6.631px rgba(0, 0, 0, 0.26);
+          }
         }
       }
     }
