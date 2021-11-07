@@ -1,4 +1,7 @@
 #home {
+  @media (max-width: 500px) {
+    height: 812px;
+  }
   main {
     @media (max-width: 1440px) {
       background: url(../../assets/homeIllustrationBoy.svg) 78% 47% no-repeat,

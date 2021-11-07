@@ -11,6 +11,7 @@
       height: 450px;
 
       img {
+        width: 100%;
         padding-top: 88px;
       }
     }
@@ -51,8 +52,8 @@
     justify-content: center;
 
     .content-box-bottom {
-      padding-left: 88px;
       padding-top: 77px;
+      padding-right: 107px;
 
       .title {
         font: 700 22px "Nunito", sans-serif;
@@ -81,7 +82,14 @@
       }
     }
     .image-box-bottom {
-      padding-left: 107px;
+      width: 430.2px;
+      height: 469.21px;
+
+      img {
+        width: 100%;
+        position: relative;
+        top: -85px;
+      }
     }
   }
 }

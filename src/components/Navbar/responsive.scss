@@ -34,4 +34,15 @@
       }
     }
   }
+
+  @media (max-width: 500px) {
+    height: 69px;
+
+    .navMenu {
+      .barsMenu {
+        width: 21px;
+        height: 18.38px;
+      }
+    }
+  }
 }

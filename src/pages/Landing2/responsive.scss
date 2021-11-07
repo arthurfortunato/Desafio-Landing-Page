@@ -1,4 +1,7 @@
 #landing2 {
+  @media (max-width: 500px) {
+    height: 1000px;
+  }
   header {
     @media (max-width: 1419px) {
       transition: 1.82s all;
@@ -89,6 +92,7 @@
           }
           @media (max-width: 658px) {
             padding-left: 0;
+            font-size: 15px;
           }
           @media (max-width: 567px) {
             font-size: 12px;

@@ -2,6 +2,7 @@ import boyTop from '../../assets/landing3BoyTop.svg';
 import boyBottom from '../../assets/landing3BoyBottom.svg';
 
 import './styles.scss';
+import './responsive.scss';
 
 export function Landing3() {
   return (
@@ -11,7 +12,7 @@ export function Landing3() {
           <img src={boyTop} alt="Illustration Boy Box Top" />
         </div>
         <div className="content-box-top">
-          <h1 className="title">100% matemática</h1>
+          <h1 className="title">100% MATEMÁTICA</h1>
           <h1>Matemática para quem quer entrar na facul.</h1>
           <p>
             Somos um cursinho online especialista em ensinar matemática.
