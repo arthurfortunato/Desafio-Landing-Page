@@ -5,6 +5,7 @@ import { Navbar } from '../../components/Navbar';
 import { Landing2 } from '../Landing2';
 import { Landing3 } from '../Landing3';
 import { Landing4 } from '../Landing4';
+import { Landing5 } from '../Landing5';
 
 import './styles.scss';
 import './responsive.scss';
@@ -38,6 +39,7 @@ export function Home() {
       <Landing2 />
       <Landing3 />
       <Landing4 />
+      <Landing5 />
     </div>
   )
 }

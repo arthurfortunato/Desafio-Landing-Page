@@ -8,6 +8,10 @@
       flex: none;
       margin: 0;
     }
+    @media (max-width: 1271px) {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
   }
 
   .main-content {
