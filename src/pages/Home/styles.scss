@@ -7,11 +7,14 @@
     display: flex;
     height: calc(100% - 79px);
 
-    background: url(../../assets/homeIllustrationBoy.svg) 78% 47% no-repeat,
-      url(../../assets/homePencil.svg) 93.7% 52% no-repeat, url(../../assets/homeNotesPencilBlue.svg) 58% 40% no-repeat,
-      url(../../assets/homeMessages.svg) 85% 75% no-repeat,
-      url(../../assets/homeNotesPencilOrange.svg) 88% 18% no-repeat, url(../../assets/homeCompass.svg) 60% 18% no-repeat,
-      url(../../assets/homeBackground.svg) 98% 42% no-repeat, url(../../assets/homeMenuRectangle.png) 2.5% 35% no-repeat;
+    background: url(../../assets/home/homeIllustrationBoy.svg) 78% 47% no-repeat,
+      url(../../assets/home/homePencil.svg) 93.7% 52% no-repeat,
+      url(../../assets/home/homeNotesPencilBlue.svg) 58% 40% no-repeat,
+      url(../../assets/home/homeMessages.svg) 85% 75% no-repeat,
+      url(../../assets/home/homeNotesPencilOrange.svg) 88% 18% no-repeat,
+      url(../../assets/home/homeCompass.svg) 60% 18% no-repeat,
+      url(../../assets/home/homeBackground.svg) 98% 42% no-repeat,
+      url(../../assets/home/homeMenuRectangle.png) 2.5% 35% no-repeat;
 
     .menu-lateral {
       display: flex;

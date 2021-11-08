@@ -4,13 +4,14 @@
   }
   main {
     @media (max-width: 1440px) {
-      background: url(../../assets/homeIllustrationBoy.svg) 78% 47% no-repeat,
-        url(../../assets/homePencil.svg) 93.7% 52% no-repeat,
-        url(../../assets/homeNotesPencilBlue.svg) 51% 40% no-repeat,
-        url(../../assets/homeMessages.svg) 81% 90% no-repeat,
-        url(../../assets/homeNotesPencilOrange.svg) 88% 16% no-repeat,
-        url(../../assets/homeCompass.svg) 55% 14% no-repeat, url(../../assets/homeBackground.svg) 98% 42% no-repeat,
-        url(../../assets/homeMenuRectangle.png) 2.5% 35% no-repeat;
+      background: url(../../assets/home/homeIllustrationBoy.svg) 78% 47% no-repeat,
+        url(../../assets/home/homePencil.svg) 93.7% 52% no-repeat,
+        url(../../assets/home/homeNotesPencilBlue.svg) 51% 40% no-repeat,
+        url(../../assets/home/homeMessages.svg) 81% 90% no-repeat,
+        url(../../assets/home/homeNotesPencilOrange.svg) 88% 16% no-repeat,
+        url(../../assets/home/homeCompass.svg) 55% 14% no-repeat,
+        url(../../assets/home/homeBackground.svg) 98% 42% no-repeat,
+        url(../../assets/home/homeMenuRectangle.png) 2.5% 35% no-repeat;
     }
     @media (max-width: 1310px) {
       justify-content: center;

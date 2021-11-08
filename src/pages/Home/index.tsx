@@ -1,5 +1,5 @@
-import logoMenuLateral from '../../assets/homeLogoLateral.svg';
-import arrow from '../../assets/homeArrow.svg';
+import logoMenuLateral from '../../assets/home/homeLogoLateral.svg';
+import arrow from '../../assets/home/homeArrow.svg';
 
 import { Navbar } from '../../components/Navbar';
 import { Landing2 } from '../Landing2';

@@ -1,6 +1,6 @@
-import logoWeb from '../../assets/navLogoWeb.svg';
-import logoMobile from '../../assets/navLogoMobile.svg';
-import barsMenu from '../../assets/navBars.svg';
+import logoWeb from '../../assets/home/navLogoWeb.svg';
+import logoMobile from '../../assets/home/navLogoMobile.svg';
+import barsMenu from '../../assets/home/navBars.svg';
 
 import './styles.scss';
 import './responsive.scss';

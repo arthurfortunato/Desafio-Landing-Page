@@ -1,9 +1,9 @@
-import planos from '../../assets/landing4Planos.svg';
-import comentario from '../../assets/landing4LoremIpsum.svg';
-import profileAmanda from '../../assets/landing4ProfileAmanda.svg';
-import profileLucas from '../../assets/landing4ProfileLucas.svg';
-import profileRodrigo from '../../assets/landing4ProfileRodrigo.svg';
-import quotes from '../../assets/landing4Quotes.svg';
+import planos from '../../assets/landing4/landing4Planos.svg';
+import comentario from '../../assets/landing4/landing4LoremIpsum.svg';
+import profileAmanda from '../../assets/landing4/landing4ProfileAmanda.svg';
+import profileLucas from '../../assets/landing4/landing4ProfileLucas.svg';
+import profileRodrigo from '../../assets/landing4/landing4ProfileRodrigo.svg';
+import quotes from '../../assets/landing4/landing4Quotes.svg';
 
 import './styles.scss';
 

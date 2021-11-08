@@ -1,7 +1,7 @@
-import banner from '../../assets/landing2Banner.svg';
-import sidebar from '../../assets/landing2Sidebar.svg';
-import arrow from '../../assets/landing2Arrow.png';
-import teenager from '../../assets/landing2Teenager.svg';
+import banner from '../../assets/landing2/landing2Banner.svg';
+import sidebar from '../../assets/landing2/landing2Sidebar.svg';
+import arrow from '../../assets/landing2/landing2Arrow.png';
+import teenager from '../../assets/landing2/landing2Teenager.svg';
 
 import './styles.scss';
 import './responsive.scss';

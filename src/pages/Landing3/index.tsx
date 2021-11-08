@@ -1,5 +1,5 @@
-import boyTop from '../../assets/landing3BoyTop.svg';
-import boyBottom from '../../assets/landing3BoyBottom.svg';
+import boyTop from '../../assets/landing3/landing3BoyTop.svg';
+import boyBottom from '../../assets/landing3/landing3BoyBottom.svg';
 
 import './styles.scss';
 import './responsive.scss';
