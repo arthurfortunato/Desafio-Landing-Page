@@ -1,3 +1,139 @@
 #landing5 {
   height: 100vh;
+
+  .app {
+    display: flex;
+    justify-content: center;
+    height: 672px;
+    background: #252160;
+
+    .cellphone {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .app-box {
+      width: 545px;
+      height: 246.4px;
+
+      display: flex;
+      flex-direction: column;
+      padding-top: 217px;
+      padding-left: 172.13px;
+
+      .header-menu {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 50.02px;
+          height: 36.06px;
+        }
+
+        p {
+          font: 700 20.6px "Inter", sans-serif;
+          color: #3affe5;
+          margin: 0px 23px;
+        }
+      }
+
+      .body-menu {
+        > p {
+          font: 400 19.45px "Inter", sans-serif;
+          color: #ffffff;
+          width: 510px;
+          height: 87px;
+          line-height: 29px;
+          letter-spacing: 0.38px;
+          padding-top: 36px;
+
+          strong {
+            font: 600 19.45px "Inter", sans-serif;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          button {
+            width: 380.41px;
+            height: 59.33px;
+            background: #3affe5;
+            border-radius: 6px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 116px;
+            margin-top: 32px;
+          }
+
+          p {
+            font: 700 17.45px "DM Sans", sans-serif;
+            color: #252160;
+            text-align: center;
+            letter-spacing: -0.618281px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .fale-conosco {
+      display: flex;
+      .logo-app {
+        display: flex;
+        flex-direction: column;
+        width: 359px;
+        height: 68px;
+
+        margin-left: 145px;
+        margin-top: 86px;
+
+        .logo-web {
+          width: 203.06px;
+          height: 38px;
+        }
+      }
+
+      .contato {
+        display: flex;
+        width: 735.53px;
+        height: 155px;
+        padding-left: 63px;
+        padding-top: 86px;
+
+        h1 {
+          font: 500 20px "Inter", sans-serif;
+          color: #252160;
+        }
+
+        p {
+          font: 400 17px "Inter", sans-serif;
+          color: #7b7b7b;
+          flex: none;
+
+          width: 233px;
+        }
+      }
+    }
+
+    .redes-sociais {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 98px;
+      padding-left: 145px;
+      border-top: 1px solid rgba(84, 84, 212, 0.34);
+      p {
+        font: 400 16px "Work Sans", sans-serif;
+        color: #7b7b7b;
+      }
+    }
+  }
 }
