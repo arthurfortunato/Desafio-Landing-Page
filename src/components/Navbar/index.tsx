@@ -4,7 +4,7 @@ import barsMenu from '../../assets/home/navBars.svg';
 
 import './styles.scss';
 import './responsive.scss';
-
+import { Link } from 'react-router-dom';
 
 export function Navbar() {
   return (
@@ -15,9 +15,9 @@ export function Navbar() {
       </div>
       <nav className="navMenu">
         <img src={barsMenu} alt="Bars Menu" className="barsMenu" />
-        <a href="/" className="homeMenu">Home</a>
-        <a href="/">Quem Somos</a>
-        <a href="/">Planos</a>
+        <a href="#home" className="homeMenu">Home</a>
+        <a href="#landing3">Quem Somos</a>
+        <a href="#landing4">Planos</a>
         <a href="/">Fala conosco</a>
         <button>Entrar</button>
       </nav>

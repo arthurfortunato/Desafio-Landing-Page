@@ -1,5 +1,3 @@
-import './styles/global.scss';
-
 import { Home } from './pages/Home';
 
 export function App() {

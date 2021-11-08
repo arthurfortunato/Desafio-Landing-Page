@@ -11,6 +11,7 @@ import './styles.scss';
 import './responsive.scss';
 
 export function Home() {
+
   return (
     <div id="home">
       <Navbar />
@@ -29,10 +30,12 @@ export function Home() {
               com materiais desenvolvido por <strong>mestres e
                 doutores em matemática</strong>
             </p>
-            <button>
-              <p>Veja nossos planos</p>
-              <img src={arrow} alt="Arrow Button" />
-            </button>
+            <a href="#landing4">
+              <button>
+                <p>Veja nossos planos</p>
+                <img src={arrow} alt="Arrow Button" />
+              </button>
+            </a>
           </div>
         </div>
       </main>
