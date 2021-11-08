@@ -1,7 +1,8 @@
 import banner from '../../assets/landing2/landing2Banner.svg';
 import sidebar from '../../assets/landing2/landing2Sidebar.svg';
-import arrow from '../../assets/landing2/landing2Arrow.png';
 import teenager from '../../assets/landing2/landing2Teenager.svg';
+
+import { ImArrowRight2 } from 'react-icons/im';
 
 import './styles.scss';
 import './responsive.scss';
@@ -35,8 +36,10 @@ export function Landing2() {
               algébrica na plataforma, além de vídeos, apostilas,
               simulados e central de dúvidas 24h!</p>
             <button>
-              <p>Quero ser aprovado</p>
-              <img src={arrow} alt="Arrow" />
+              <div className="button-content">
+                <p>Quero ser aprovado</p>
+                <ImArrowRight2 size="20px" color="#fff" />
+              </div>
             </button>
           </div>
         </div>

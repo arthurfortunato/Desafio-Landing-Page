@@ -61,7 +61,6 @@
         }
         a {
           text-decoration: none;
-
           button {
             display: flex;
             flex-direction: row;
@@ -81,12 +80,17 @@
               filter: brightness(0.9);
             }
 
-            p {
-              font: 700 17.45px "Inter", sans-serif;
-              color: #252160;
-              letter-spacing: -0.618281;
-              padding-right: 32.57px;
+            .button-content {
+              display: flex;
               flex: none;
+              align-items: center;
+
+              p {
+                font: 700 17.45px "Inter", sans-serif;
+                color: #252160;
+                letter-spacing: -0.618281;
+                padding-right: 22.57px;
+              }
             }
           }
         }

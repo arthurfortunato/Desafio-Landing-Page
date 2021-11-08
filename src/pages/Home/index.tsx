@@ -1,11 +1,12 @@
 import logoMenuLateral from '../../assets/home/homeLogoLateral.svg';
-import arrow from '../../assets/home/homeArrow.svg';
 
 import { Navbar } from '../../components/Navbar';
 import { Landing2 } from '../Landing2';
 import { Landing3 } from '../Landing3';
 import { Landing4 } from '../Landing4';
 import { Landing5 } from '../Landing5';
+
+import { HiOutlineArrowRight } from 'react-icons/hi'
 
 import './styles.scss';
 import './responsive.scss';
@@ -32,8 +33,10 @@ export function Home() {
             </p>
             <a href="#landing4">
               <button>
-                <p>Veja nossos planos</p>
-                <img src={arrow} alt="Arrow Button" />
+                <div className="button-content">
+                  <p>Veja nossos planos</p>
+                  <HiOutlineArrowRight size="20.3px" />
+                </div>
               </button>
             </a>
           </div>

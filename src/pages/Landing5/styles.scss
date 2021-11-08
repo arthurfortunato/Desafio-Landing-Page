@@ -66,17 +66,21 @@
             align-items: center;
             padding: 15px 116px;
             margin-top: 32px;
+            cursor: pointer;
           }
 
-          p {
-            font: 700 17.45px "DM Sans", sans-serif;
-            color: #252160;
-            text-align: center;
-            letter-spacing: -0.618281px;
+          .button-content {
+            display: flex;
             flex: none;
-            order: 0;
-            flex-grow: 0;
-            margin: 0px 24px;
+            align-items: center;
+
+            p {
+              font: 700 17.45px "DM Sans", sans-serif;
+              color: #252160;
+              text-align: center;
+              letter-spacing: -0.618281px;
+              margin-right: 24px;
+            }
           }
         }
       }
@@ -133,6 +137,24 @@
       p {
         font: 400 16px "Work Sans", sans-serif;
         color: #7b7b7b;
+      }
+
+      .icons {
+        .facebook {
+          margin-right: 32.59px;
+        }
+        .twitter {
+          margin-right: 32.59px;
+        }
+      }
+
+      button {
+        width: 58px;
+        height: 58px;
+        background: #252160;
+        border-radius: 999px;
+        margin: 0 10px 0 45.75px;
+        cursor: pointer;
       }
     }
   }

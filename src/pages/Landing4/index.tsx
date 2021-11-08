@@ -3,7 +3,8 @@ import comentario from '../../assets/landing4/landing4LoremIpsum.svg';
 import profileAmanda from '../../assets/landing4/landing4ProfileAmanda.svg';
 import profileLucas from '../../assets/landing4/landing4ProfileLucas.svg';
 import profileRodrigo from '../../assets/landing4/landing4ProfileRodrigo.svg';
-import quotes from '../../assets/landing4/landing4Quotes.svg';
+
+import { RiDoubleQuotesR } from 'react-icons/ri';
 
 import './styles.scss';
 
@@ -31,7 +32,7 @@ export function Landing4() {
               <img src={comentario} alt="Comentário" />
               <div className="profile">
                 <img src={profileAmanda} alt="Profile Amanda" />
-                <img src={quotes} alt="Double Quotes" />
+                <RiDoubleQuotesR color="#32B5FF" size="60px" />
               </div>
             </div>
           </div>
@@ -39,14 +40,14 @@ export function Landing4() {
             <img src={comentario} alt="Comentário" />
             <div className="profile">
               <img src={profileLucas} alt="Profile Amanda" />
-              <img src={quotes} alt="Double Quotes" />
+              <RiDoubleQuotesR color="#32B5FF" size="60px" />
             </div>
           </div>
           <div className="comentario-rodrigo">
             <img src={comentario} alt="Comentário" />
             <div className="profile">
               <img src={profileRodrigo} alt="Profile Amanda" />
-              <img src={quotes} alt="Double Quotes" />
+              <RiDoubleQuotesR color="#32B5FF" size="60px" />
             </div>
           </div>
         </div>

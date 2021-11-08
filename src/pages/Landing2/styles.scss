@@ -83,20 +83,20 @@
           margin-left: 112px;
           cursor: pointer;
 
-          p {
-            font: 700 17.45px "DM Sans", sans-serif;
-            color: #fff;
-            height: 23px;
-            width: 157px;
-            text-align: center;
-            letter-spacing: -0.618281px;
-            flex: none;
-            margin-right: 24px;
-          }
+          .button-content {
+            display: flex;
+            align-items: center;
 
-          img {
-            width: 18.61px;
-            height: 16.29;
+            p {
+              font: 700 17.45px "DM Sans", sans-serif;
+              color: #fff;
+              height: 23px;
+              width: 157px;
+              text-align: center;
+              letter-spacing: -0.618281px;
+              flex: none;
+              margin-right: 24px;
+            }
           }
         }
       }

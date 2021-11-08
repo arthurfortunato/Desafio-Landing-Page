@@ -1,8 +1,10 @@
 import cellphone from '../../assets/landing5/landing5Cellphone.svg';
 import logo from '../../assets/home/homeLogoLateral.svg';
-import arrow from '../../assets/home/homeArrow.svg';
 import logoWeb from '../../assets/home/navLogoWeb.svg'
 import logoApps from '../../assets/landing5/landing5LogoApps.svg';
+
+import { HiArrowRight } from 'react-icons/hi';
+import { RiArrowUpFill, RiFacebookFill, RiTwitterFill, RiInstagramFill } from 'react-icons/ri';
 
 import './styles.scss';
 import './responsive.scss';
@@ -27,8 +29,10 @@ export function Landing5() {
             </p>
             <a href="/">
               <button>
-                <p>Conheça nosso aplicativo</p>
-                <img src={arrow} alt="Arrow Button" />
+                <div className="button-content">
+                  <p>Conheça nosso aplicativo</p>
+                  <HiArrowRight size="20px" />
+                </div>
               </button>
             </a>
           </div>
@@ -59,9 +63,13 @@ export function Landing5() {
         </div>
         <div className="redes-sociais">
           <p>© Copyright 2021. All Right Reserved </p>
-          <div>
-            F T I
-            <button>T</button>
+          <div className="icons">
+            <RiFacebookFill size="19px" margin-right="10px" className="facebook" />
+            <RiTwitterFill size="19px" className="twitter" />
+            <RiInstagramFill size="19px" />
+            <a href="#home">
+              <button><RiArrowUpFill color="#fff" size="32px" /></button>
+            </a>
           </div>
         </div>
       </div>
