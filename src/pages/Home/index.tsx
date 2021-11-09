@@ -1,4 +1,7 @@
 import logoMenuLateral from '../../assets/home/homeLogoLateral.svg';
+import illustration from '../../assets/home/homeIllustration.svg';
+import background from '../../assets/home/homeBackground.svg';
+
 
 import { Navbar } from '../../components/Navbar';
 import { Landing2 } from '../Landing2';
@@ -41,11 +44,17 @@ export function Home() {
             </a>
           </div>
         </div>
+        <div className="illustration">
+          <img src={illustration} alt="" />
+        </div>
+        <div className="background">
+          <img src={background} alt="" />
+        </div>
       </main>
-      <Landing2 />
+      {/*       <Landing2 />
       <Landing3 />
       <Landing4 />
-      {/*  <Landing5 /> */}
+      <Landing5 /> */}
     </div>
   )
 }

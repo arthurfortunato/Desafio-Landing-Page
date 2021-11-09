@@ -1,69 +1,136 @@
 #home {
-  @media (max-width: 500px) {
-    height: 812px;
-  }
   main {
-    @media (max-width: 1440px) {
-      background: url(../../assets/home/homeIllustrationBoy.svg) 78% 47% no-repeat,
-        url(../../assets/home/homePencil.svg) 93.7% 52% no-repeat,
-        url(../../assets/home/homeNotesPencilBlue.svg) 51% 40% no-repeat,
-        url(../../assets/home/homeMessages.svg) 81% 90% no-repeat,
-        url(../../assets/home/homeNotesPencilOrange.svg) 88% 16% no-repeat,
-        url(../../assets/home/homeCompass.svg) 55% 14% no-repeat,
-        url(../../assets/home/homeBackground.svg) 98% 42% no-repeat,
-        url(../../assets/home/homeMenuRectangle.png) 2.5% 35% no-repeat;
-    }
-    @media (max-width: 1310px) {
+    @media (max-width: 1075px) {
+      display: flex;
+      flex-direction: column;
       justify-content: center;
-      background: none;
+      align-items: center;
     }
-    @media (max-width: 906px) {
-      .menu-lateral {
-        padding-left: 0;
-        padding-top: 170px;
+    .menu-lateral {
+      @media (max-width: 1295px) {
+        transition: 1.82s all;
+        width: 640px;
+        height: 545px;
+      }
 
-        .header-menu {
+      @media (max-width: 1075px) {
+        background: #252160;
+        margin-top: 0;
+        transform: rotate(0deg);
+        width: 480px;
+        height: 445px;
+        border-radius: 0;
+      }
+      @media (max-width: 545px) {
+        width: 300px;
+        height: 380px;
+        margin: 0;
+      }
+
+      .header-menu {
+        @media (max-width: 1295px) {
+          transition: 1.82s all;
+          padding-top: 70px;
+          padding-left: 100px;
+        }
+        @media (max-width: 1075px) {
+          padding: 0;
+          transform: rotate(0deg);
+        }
+        @media (max-width: 545px) {
           display: flex;
           flex-direction: column;
 
-          img {
-            padding-bottom: 23px;
-          }
           p {
             font-size: 14px;
+            margin: 23px 0px;
           }
         }
+      }
 
-        .body-menu {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
+      .body-menu {
+        @media (max-width: 1075px) {
+          padding: 0;
+          transform: rotate(0deg);
+        }
 
-          h1 {
-            font-size: 40px;
-            text-align: center;
+        h1 {
+          @media (max-width: 1295px) {
+            transition: 1.82s all;
+            font-size: 50px;
           }
-
-          > p {
+          @media (max-width: 545px) {
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -0.01em;
+            margin: 0;
+          }
+        }
+        > p {
+          @media (max-width: 1295px) {
+            transition: 1.82s all;
+            font-size: 15px;
+            width: 423px;
+          }
+          @media (max-width: 545px) {
             font-size: 12px;
-            width: 314px;
-            height: 45px;
             line-height: 15px;
             text-align: center;
             letter-spacing: 0.38px;
+
+            width: 314px;
+            height: 45px;
           }
+        }
 
+        a {
           button {
-            width: 294px;
-            height: 45.85px;
-            margin-top: 95px;
-
-            p {
-              font-size: 13.49px;
+            @media (max-width: 545px) {
+              width: 294px;
+              height: 45.85px;
+              font-size: 13.4862px;
+              line-height: 16px;
               text-align: center;
+              letter-spacing: -0.477839px;
             }
           }
         }
+      }
+    }
+    .illustration {
+      @media (max-width: 1295px) {
+        transition: 1.82s all;
+        position: absolute;
+        left: 50.98%;
+        top: 28%;
+
+        img {
+          transition: 1.82s all;
+          width: 526px;
+          height: 526px;
+        }
+      }
+
+      @media (max-width: 1075px) {
+        transition: 1.82s all;
+        position: absolute;
+        left: 50.98%;
+        top: 28%;
+
+        img {
+          width: 426px;
+          height: 426px;
+        }
+      }
+
+      @media (max-width: 1075px) {
+        display: none;
+      }
+    }
+    .background {
+      @media (max-width: 1075px) {
+        display: none;
       }
     }
   }

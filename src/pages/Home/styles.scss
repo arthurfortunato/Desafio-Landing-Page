@@ -1,30 +1,30 @@
 #home {
   width: 100%;
-  background-color: #252160;
   height: 100vh;
+  background-color: #252160;
 
   main {
     display: flex;
     height: calc(100% - 79px);
 
-    background: url(../../assets/home/homeIllustrationBoy.svg) 78% 47% no-repeat,
-      url(../../assets/home/homePencil.svg) 93.7% 52% no-repeat,
-      url(../../assets/home/homeNotesPencilBlue.svg) 58% 40% no-repeat,
-      url(../../assets/home/homeMessages.svg) 85% 75% no-repeat,
-      url(../../assets/home/homeNotesPencilOrange.svg) 88% 18% no-repeat,
-      url(../../assets/home/homeCompass.svg) 60% 18% no-repeat,
-      url(../../assets/home/homeBackground.svg) 98% 42% no-repeat,
-      url(../../assets/home/homeMenuRectangle.png) 2.5% 35% no-repeat;
-
     .menu-lateral {
-      display: flex;
-      flex-direction: column;
-      padding-top: 208px;
-      padding-left: 120px;
+      position: absolute;
+      z-index: 0;
+      margin-top: 80px;
+      margin-left: 60px;
+
+      width: 741.6px;
+      height: 645.98px;
+      background: #292663;
+      border-radius: 124px;
+      transform: rotate(-15.22deg);
 
       .header-menu {
+        transform: rotate(15.22deg);
         display: flex;
         align-items: center;
+        padding-top: 131px;
+        padding-left: 120px;
 
         img {
           width: 50.02px;
@@ -39,6 +39,8 @@
       }
 
       .body-menu {
+        transform: rotate(15.22deg);
+        padding-left: 40px;
         h1 {
           font: 400 65.15px "Fredoka One", sans-serif;
           color: #fff;
@@ -96,11 +98,23 @@
         }
       }
     }
+    .illustration {
+      z-index: 2;
+      position: absolute;
+      left: 49.98%;
+      top: 23%;
+    }
 
-    .images {
-      display: flex;
-      height: 656.83px;
-      width: 586.23px;
+    .background {
+      z-index: 1;
+      position: absolute;
+      left: 50.1%;
+      top: 5%;
+
+      img {
+        width: 100%;
+        height: 942px;
+      }
     }
   }
 }
