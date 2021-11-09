@@ -42,7 +42,7 @@ export function Landing5() {
         <div className="fale-conosco">
           <div className="logo-app">
             <img src={logoWeb} alt="Logo Web" className="logo-web" />
-            <img src={logoApps} alt="Logo Apps" />
+            <img src={logoApps} alt="Logo Apps" className="logo-apps" />
           </div>
           <div className="contato">
             <div>

@@ -88,8 +88,11 @@
   }
 
   .footer {
+    height: 373px;
+
     .fale-conosco {
       display: flex;
+
       .logo-app {
         display: flex;
         flex-direction: column;
@@ -102,6 +105,10 @@
         .logo-web {
           width: 203.06px;
           height: 38px;
+        }
+
+        .logo-apps {
+          margin-top: 35px;
         }
       }
 
@@ -121,6 +128,8 @@
           font: 400 17px "Inter", sans-serif;
           color: #7b7b7b;
           flex: none;
+          padding-top: 13px;
+          line-height: 30px;
 
           width: 233px;
         }
@@ -133,7 +142,9 @@
       align-items: center;
       height: 98px;
       padding-left: 145px;
+      margin-top: 31px;
       border-top: 1px solid rgba(84, 84, 212, 0.34);
+
       p {
         font: 400 16px "Work Sans", sans-serif;
         color: #7b7b7b;
@@ -155,6 +166,7 @@
         border-radius: 999px;
         margin: 0 10px 0 45.75px;
         cursor: pointer;
+        border: 0;
       }
     }
   }
