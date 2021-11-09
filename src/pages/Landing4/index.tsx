@@ -1,4 +1,5 @@
-import planos from '../../assets/landing4/landing4Planos.svg';
+import planoRecomendado from '../../assets/landing4/landing4PlanoRecomendado.svg';
+import planoAprovado from '../../assets/landing4/landing4PlanoAprovado.svg';
 import comentario from '../../assets/landing4/landing4LoremIpsum.svg';
 import profileAmanda from '../../assets/landing4/landing4ProfileAmanda.svg';
 import profileLucas from '../../assets/landing4/landing4ProfileLucas.svg';
@@ -7,6 +8,7 @@ import profileRodrigo from '../../assets/landing4/landing4ProfileRodrigo.svg';
 import { RiDoubleQuotesR } from 'react-icons/ri';
 
 import './styles.scss';
+import './responsive.scss';
 
 export function Landing4() {
   return (
@@ -17,7 +19,8 @@ export function Landing4() {
           <h1 className="invista">Invista no seu futuro</h1>
         </div>
         <div className="planos">
-          <img src={planos} alt="" />
+          <img src={planoRecomendado} alt="Plano Recomendado" className="plano-recomendado" />
+          <img src={planoAprovado} alt="Plano Aprovado" className="plano-aprovado" />
         </div>
         <div className="depoimentos-title">
           <h1 className="title">DEPOIMENTOS</h1>

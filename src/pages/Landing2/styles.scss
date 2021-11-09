@@ -1,6 +1,7 @@
 #landing2 {
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  background-color: #fff;
 
   header {
     display: flex;
@@ -104,8 +105,8 @@
 
     aside {
       .teenager {
-        width: 691px;
-        height: 738px;
+        width: 100%;
+        height: 100%;
         flex: none;
         order: 0;
         flex-grow: 0;

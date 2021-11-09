@@ -1,0 +1,25 @@
+#landing4 {
+  .container {
+    .header {
+      .nossos-planos {
+        @media (max-width: 1305px) {
+          transition: 1.82s all;
+          padding-left: 20px;
+        }
+      }
+      .invista {
+        @media (max-width: 1305px) {
+          transition: 1.82s all;
+          padding-left: 20px;
+        }
+      }
+    }
+
+    .planos {
+      @media (max-width: 1305px) {
+        transition: 1.82s all;
+        padding-left: 20px;
+      }
+    }
+  }
+}

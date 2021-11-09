@@ -45,7 +45,7 @@ export function Home() {
       <Landing2 />
       <Landing3 />
       <Landing4 />
-      <Landing5 />
+      {/*  <Landing5 /> */}
     </div>
   )
 }
