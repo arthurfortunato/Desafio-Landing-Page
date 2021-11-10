@@ -1,4 +1,5 @@
 import banner from '../../assets/landing2/landing2Banner.svg';
+import bannerResponsivo from '../../assets/landing2/landing2BannerResponsivo.svg';
 import sidebar from '../../assets/landing2/landing2Sidebar.svg';
 import teenager from '../../assets/landing2/landing2Teenager.svg';
 
@@ -6,14 +7,17 @@ import { ImArrowRight2 } from 'react-icons/im';
 
 import './styles.scss';
 import './responsive.scss';
+import { FaWindows } from 'react-icons/fa';
 
 export function Landing2() {
+
   return (
     <div id="landing2">
 
-      <header>
-        <img src={banner} alt="Banner" />
+      <header className="banner">
+        <img src={banner} alt="Banner" className="banner" />
       </header>
+
 
       <div className="main-content">
         <div className="box-lateral">

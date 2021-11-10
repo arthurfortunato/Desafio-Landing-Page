@@ -1,24 +1,230 @@
 #landing4 {
+  @media (max-height: 850px) {
+    height: 200vh;
+  }
+  @media (max-height: 790px) {
+    height: 250vh;
+  }
+
   .container {
     .header {
+      @media (max-width: 1010px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       .nossos-planos {
-        @media (max-width: 1305px) {
+        @media (max-width: 1375px) {
           transition: 1.82s all;
-          padding-left: 20px;
+          padding-left: 80px;
+        }
+        @media (max-width: 1010px) {
+          padding-left: 0;
+          text-align: center;
+        }
+        @media (max-width: 700px) {
+          font-size: 20px;
+          line-height: 27px;
         }
       }
       .invista {
-        @media (max-width: 1305px) {
+        @media (max-width: 1375px) {
           transition: 1.82s all;
-          padding-left: 20px;
+          padding-left: 80px;
+        }
+        @media (max-width: 1010px) {
+          padding-left: 0;
+          text-align: center;
+        }
+        @media (max-width: 700px) {
+          font-size: 18px;
+          line-height: 22px;
+          padding-top: 25px;
         }
       }
     }
 
     .planos {
-      @media (max-width: 1305px) {
+      @media (max-width: 1375px) {
         transition: 1.82s all;
-        padding-left: 20px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+      }
+      @media (max-width: 1010px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      @media (max-width: 700px) {
+        padding-top: 0;
+      }
+
+      .plano-recomendado {
+        @media (max-width: 1210px) {
+          transition: 1.82s all;
+          width: 470px;
+          height: 592px;
+        }
+
+        @media (max-width: 1010px) {
+          width: 319.59px;
+          height: 387.99px;
+          margin: 0;
+        }
+        @media (max-width: 450px) {
+        }
+      }
+
+      .plano-aprovado {
+        @media (max-width: 1210px) {
+          transition: 1.82s all;
+          width: 470px;
+          height: 592px;
+        }
+        @media (max-width: 1010px) {
+          width: 319.59px;
+          height: 387.99px;
+          margin-top: 23px;
+        }
+        @media (max-width: 1010px) {
+          width: 319.59px;
+          height: 387.99px;
+          margin-top: 23px;
+        }
+      }
+    }
+
+    .depoimentos-title {
+      @media (max-width: 1010px) {
+        transition: 1.82s all;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .title {
+        @media (max-width: 1010px) {
+          transition: 1.82s all;
+          padding-left: 0;
+          width: 200px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+        }
+        @media (max-width: 700px) {
+          width: 150px;
+          height: 27px;
+          font-size: 20px;
+          padding-top: 89px;
+        }
+      }
+
+      .recomendacao {
+        @media (max-width: 1010px) {
+          transition: 1.82s all;
+          padding-left: 0;
+          width: 500px;
+          font-size: 38px;
+          text-align: center;
+        }
+        @media (max-width: 700px) {
+          width: 273px;
+          height: 44px;
+          font-size: 18px;
+          line-height: 22px;
+          padding-top: 8px;
+        }
+      }
+    }
+
+    .depoimentos {
+      @media (max-width: 1375px) {
+        transition: 1.82s all;
+        justify-content: center;
+      }
+      @media (max-width: 700px) {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+      }
+      .button-left {
+        @media (max-width: 700px) {
+          display: none;
+        }
+      }
+
+      .comentario-amanda {
+        @media (max-width: 1010px) {
+          transition: 1.82s all;
+          margin-right: 0;
+        }
+        @media (max-width: 700px) {
+          width: 340px;
+          height: 248.11px;
+        }
+        @media (max-width: 430px) {
+          margin: 0;
+          padding: 15px 15px;
+          width: 320px;
+          height: 248.11px;
+        }
+      }
+
+      .comentario-lucas {
+        @media (max-width: 1010px) {
+          display: none;
+        }
+      }
+
+      .comentario-rodrigo {
+        @media (max-width: 1375px) {
+          display: none;
+        }
+      }
+      .button-right {
+        @media (max-width: 700px) {
+          display: none;
+        }
+      }
+
+      .button-responsive {
+        @media (max-width: 700px) {
+          display: flex;
+          margin-top: 24px;
+
+          .left {
+            button {
+              width: 50px;
+              height: 50px;
+              border-radius: 9999px;
+              border: 1px solid #252160;
+              box-sizing: border-box;
+              cursor: pointer;
+              background: #fff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+
+          .right {
+            button {
+              width: 50px;
+              height: 50px;
+              border-radius: 9999px;
+              border: 1px solid #252160;
+              box-sizing: border-box;
+              cursor: pointer;
+              background: #fff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
       }
     }
   }

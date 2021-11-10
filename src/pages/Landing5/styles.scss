@@ -4,22 +4,25 @@
   .app {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 672px;
+    width: 100%;
     background: #252160;
 
     .cellphone {
       display: flex;
-      align-items: flex-end;
+      margin-bottom: 85px;
     }
 
     .app-box {
       width: 545px;
       height: 246.4px;
-
       display: flex;
       flex-direction: column;
+      justify-content: center;
       padding-top: 217px;
-      padding-left: 172.13px;
+      padding-left: 100px;
+      padding-bottom: 213px;
 
       .header-menu {
         display: flex;
@@ -89,73 +92,84 @@
 
   .footer {
     height: 373px;
+    width: 100%;
 
     .fale-conosco {
       display: flex;
+      justify-content: flex-start;
 
       .logo-app {
-        display: flex;
-        flex-direction: column;
-        width: 359px;
-        height: 68px;
-
-        margin-left: 145px;
-        margin-top: 86px;
-
         .logo-web {
           width: 203.06px;
           height: 38px;
-        }
-
-        .logo-apps {
-          margin-top: 35px;
+          margin-top: 86px;
+          margin-left: 160px;
+          position: absolute;
         }
       }
 
       .contato {
         display: flex;
-        width: 735.53px;
-        height: 155px;
-        padding-left: 63px;
+        justify-content: flex-start;
         padding-top: 86px;
 
-        h1 {
-          font: 500 20px "Inter", sans-serif;
-          color: #252160;
+        .store {
+          display: flex;
+          width: 359px;
+          height: 68px;
+          padding-top: 100px;
+          padding-right: 36px;
+          margin: 0px 60px 0px 160px;
         }
+        .contatos-endereco {
+          display: flex;
 
-        p {
-          font: 400 17px "Inter", sans-serif;
-          color: #7b7b7b;
-          flex: none;
-          padding-top: 13px;
-          line-height: 30px;
+          h1 {
+            font: 500 20px "Inter", sans-serif;
+            color: #252160;
+          }
 
-          width: 233px;
+          p {
+            font: 400 17px "Inter", sans-serif;
+            color: #7b7b7b;
+            flex: none;
+            padding-top: 13px;
+            line-height: 30px;
+
+            width: 233px;
+          }
         }
       }
     }
 
     .redes-sociais {
+      border-top: 1px solid rgba(84, 84, 212, 0.34);
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 98px;
+      height: 100px;
       padding-left: 145px;
-      margin-top: 31px;
-      border-top: 1px solid rgba(84, 84, 212, 0.34);
+      margin-top: 51px;
 
-      p {
-        font: 400 16px "Work Sans", sans-serif;
-        color: #7b7b7b;
-      }
+      .footer-responsive {
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        width: 100%;
 
-      .icons {
-        .facebook {
-          margin-right: 32.59px;
+        .p {
+          display: flex;
+          font: 400 16px "Work Sans", sans-serif;
+          color: #7b7b7b;
         }
-        .twitter {
-          margin-right: 32.59px;
+        .icons {
+          margin-right: 20px;
+          .facebook {
+            margin-right: 32.59px;
+          }
+          .twitter {
+            margin-right: 32.59px;
+          }
         }
       }
 
@@ -164,7 +178,6 @@
         height: 58px;
         background: #252160;
         border-radius: 999px;
-        margin: 0 10px 0 45.75px;
         cursor: pointer;
         border: 0;
       }

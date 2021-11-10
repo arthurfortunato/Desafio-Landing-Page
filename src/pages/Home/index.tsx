@@ -51,10 +51,10 @@ export function Home() {
           <img src={background} alt="" />
         </div>
       </main>
-      {/*       <Landing2 />
+      <Landing2 />
       <Landing3 />
       <Landing4 />
-      <Landing5 /> */}
+      <Landing5 />
     </div>
   )
 }

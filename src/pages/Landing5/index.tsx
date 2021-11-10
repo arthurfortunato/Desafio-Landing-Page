@@ -1,7 +1,9 @@
 import cellphone from '../../assets/landing5/landing5Cellphone.svg';
 import logo from '../../assets/home/homeLogoLateral.svg';
 import logoWeb from '../../assets/home/navLogoWeb.svg'
-import logoApps from '../../assets/landing5/landing5LogoApps.svg';
+import androidStore from '../../assets/landing5/landing5AndroidStore.svg';
+import iosStore from '../../assets/landing5/landing5IosStore.svg';
+
 
 import { HiArrowRight } from 'react-icons/hi';
 import { RiArrowUpFill, RiFacebookFill, RiTwitterFill, RiInstagramFill } from 'react-icons/ri';
@@ -24,7 +26,7 @@ export function Landing5() {
           <div className="body-menu">
             <p>
               Receba lembretes no seu celular e tenha a facilidade
-              de estudar a qualquer hora e de qualquer lugar.
+              de estudar a qualquer hora e de qualquer lugar.<br />
               <strong> Baixe nosso app e confira.</strong>
             </p>
             <a href="/">
@@ -42,35 +44,44 @@ export function Landing5() {
         <div className="fale-conosco">
           <div className="logo-app">
             <img src={logoWeb} alt="Logo Web" className="logo-web" />
-            <img src={logoApps} alt="Logo Apps" className="logo-apps" />
           </div>
           <div className="contato">
-            <div>
-              <h1>Localização</h1>
-              <p>Av. Brg. Faria Lima , 1422 São Paulo - SP </p>
+            <div className="store">
+              <img src={androidStore} alt="Android Store" />
+              <img src={iosStore} alt="IOS Store" />
             </div>
-            <div>
-              <h1>Fale conosco </h1>
-              <p>(22) 4442-0126   info@digihouse.com</p>
-            </div>
-            <div>
-              <h1>Políticas</h1>
-              <p>Direitos autorais</p>
-              <p>Termos de uso</p>
-              <p>Políticas de Privacidade</p>
+            <div className="contatos-endereco">
+              <div>
+                <h1>Localização</h1>
+                <p>Av. Brg. Faria Lima , 1422 São Paulo - SP </p>
+              </div>
+              <div>
+                <h1>Fale conosco </h1>
+                <p>(22) 4442-0126   info@digihouse.com</p>
+              </div>
+              <div>
+                <h1>Políticas</h1>
+                <p>Direitos autorais</p>
+                <p>Termos de uso</p>
+                <p>Políticas de Privacidade</p>
+              </div>
             </div>
           </div>
         </div>
         <div className="redes-sociais">
-          <p>© Copyright 2021. All Right Reserved </p>
-          <div className="icons">
-            <RiFacebookFill size="19px" margin-right="10px" className="facebook" />
-            <RiTwitterFill size="19px" className="twitter" />
-            <RiInstagramFill size="19px" />
-            <a href="#home">
-              <button><RiArrowUpFill color="#fff" size="32px" /></button>
-            </a>
+          <div className="footer-responsive">
+            <div className="p">
+              <p>©</p> <p>Copyright 2021. All Right Reserved </p>
+            </div>
+            <div className="icons">
+              <RiFacebookFill size="19px" margin-right="10px" className="facebook" />
+              <RiTwitterFill size="19px" className="twitter" />
+              <RiInstagramFill size="19px" />
+            </div>
           </div>
+          <a href="#home">
+            <button><RiArrowUpFill color="#fff" size="32px" /></button>
+          </a>
         </div>
       </div>
     </div>

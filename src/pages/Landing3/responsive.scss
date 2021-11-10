@@ -1,6 +1,14 @@
 #landing3 {
-  @media (max-width: 941px) {
+  @media (max-height: 850px) {
+    margin-top: 84px;
+    height: calc(100vh + 84px);
+  }
+
+  @media (max-width: 940px) {
     height: 1247px;
+  }
+  @media (max-width: 658px) {
+    margin-top: 104px;
   }
 
   .box-top {
@@ -57,7 +65,7 @@
         }
         @media (max-width: 941px) {
           font: 600 18px "Inter", sans-serif;
-          width: 273px;
+          width: 250px;
           height: 44px;
           line-height: 22px;
           text-align: center;
@@ -99,6 +107,8 @@
       }
       @media (max-width: 941px) {
         padding-top: 42px;
+        width: 286.28px;
+        height: 312.24px;
       }
 
       img {
