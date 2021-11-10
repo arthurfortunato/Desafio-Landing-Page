@@ -3,15 +3,21 @@
   background-color: #fff;
 
   .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 58px;
+    .banner-principal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 58px;
 
-    img {
-      width: 1270px;
-      height: 164px;
-      overflow: hidden;
+      img {
+        width: 1270px;
+        height: 164px;
+        overflow: hidden;
+      }
+    }
+
+    .banner-responsivo {
+      display: none;
     }
   }
   .main-content {

@@ -66,5 +66,5 @@ export function Landing4() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

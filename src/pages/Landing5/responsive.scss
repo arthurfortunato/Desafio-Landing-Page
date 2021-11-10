@@ -18,6 +18,12 @@
           height: 501.88px;
           margin: 0;
         }
+        @media (max-width: 980px) {
+          margin-bottom: 103px;
+        }
+        @media (max-width: 360px) {
+          margin-bottom: 105px;
+        }
       }
     }
 
@@ -32,6 +38,7 @@
         width: 294px;
         padding: 0;
         margin-top: 295px;
+        margin-bottom: 107px;
       }
 
       .header-menu {
@@ -124,7 +131,7 @@
         @media (max-width: 650px) {
           transition: 1.8s all;
           flex-direction: column-reverse;
-          width: 300px;
+          width: 200px;
           padding: 0;
           align-items: center;
         }
@@ -140,6 +147,8 @@
             margin-bottom: 82px;
             margin-left: 30px;
             justify-content: center;
+            width: 181px;
+            height: 68px;
           }
         }
 

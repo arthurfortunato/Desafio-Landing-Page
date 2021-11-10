@@ -7,7 +7,6 @@ import { ImArrowRight2 } from 'react-icons/im';
 
 import './styles.scss';
 import './responsive.scss';
-import { FaWindows } from 'react-icons/fa';
 
 export function Landing2() {
 
@@ -15,7 +14,12 @@ export function Landing2() {
     <div id="landing2">
 
       <header className="banner">
-        <img src={banner} alt="Banner" className="banner" />
+        <div className="banner-principal">
+          <img src={banner} alt="Banner" className="banner" />
+        </div>
+        <div className="banner-responsivo">
+          <img src={bannerResponsivo} alt="Banner" className="banner" />
+        </div>
       </header>
 
 
@@ -52,5 +56,5 @@ export function Landing2() {
         </aside>
       </div>
     </div>
-  )
-}
+  );
+};

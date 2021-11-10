@@ -38,5 +38,5 @@ export function Landing3() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

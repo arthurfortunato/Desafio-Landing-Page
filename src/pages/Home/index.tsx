@@ -9,7 +9,7 @@ import { Landing3 } from '../Landing3';
 import { Landing4 } from '../Landing4';
 import { Landing5 } from '../Landing5';
 
-import { HiOutlineArrowRight } from 'react-icons/hi'
+import { HiOutlineArrowRight } from 'react-icons/hi';
 
 import './styles.scss';
 import './responsive.scss';
@@ -56,5 +56,5 @@ export function Home() {
       <Landing4 />
       <Landing5 />
     </div>
-  )
-}
+  );
+};

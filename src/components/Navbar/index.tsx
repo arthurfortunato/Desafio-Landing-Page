@@ -22,5 +22,5 @@ export function Navbar() {
         <button>Entrar</button>
       </nav>
     </div>
-  )
-}
+  );
+};

@@ -1,24 +1,36 @@
 #landing2 {
-  @media (max-height: 640px) {
+  @media (max-height: 670px) {
+    height: 900px;
+  }
+
+  @media (max-width: 500px) {
     height: 900px;
   }
 
   .banner {
-    @media (max-width: 1419px) {
-      transition: 1.82s all;
-      flex: none;
-      margin: 0;
-    }
-    @media (max-width: 1271px) {
-      justify-content: flex-start;
-      align-items: flex-start;
+    .banner-principal {
+      @media (max-width: 1419px) {
+        transition: 1.82s all;
+        flex: none;
+        margin: 0;
+      }
+      @media (max-width: 1271px) {
+        justify-content: flex-start;
+        align-items: flex-start;
 
-      img {
-        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      @media (max-width: 500px) {
+        display: none;
       }
     }
-    @media (max-width: 400px) {
-      margin-top: 10px;
+    .banner-responsivo {
+      @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 
