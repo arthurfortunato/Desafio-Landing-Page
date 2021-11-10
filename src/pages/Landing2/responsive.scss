@@ -29,7 +29,9 @@
     .banner-responsivo {
       @media (max-width: 500px) {
         display: flex;
-        justify-content: center;
+        img {
+          width: 100%;
+        }
       }
     }
   }

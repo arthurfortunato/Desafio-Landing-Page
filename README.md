@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License" />   
+</p>
 
-## Available Scripts
+<h1 align="center">
+    <img alt="Logoipsum" src=".github/Landing.svg" />
+</h1>
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+## 🧪 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
 
-### `yarn test`
+## 🚀 Como executar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone o projeto e acesse a pasta do mesmo.
 
-### `yarn build`
+```bash
+$ git clone https://github.com/arthurfortunato/Desafio-Landing-Page.git
+$ cd Desafio-Landing-Page
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Iniciar o projeto
+$ yarn start 
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 💻 Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Projeto com o objetivo de replicar o layout da landing page no Figma, deixo responsivo para Wb e Mobile.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ **[Layout Figma](https://www.figma.com/file/ESJgBz1dpcImjUwe4pcLex/Desafio?node-id=0%3A1)**.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
