@@ -1,6 +1,10 @@
 #landing2 {
+  @media (max-height: 800px) {
+    height: 105vh;
+  }
+
   @media (max-height: 670px) {
-    height: 900px;
+    height: 130vh;
   }
 
   @media (max-width: 500px) {

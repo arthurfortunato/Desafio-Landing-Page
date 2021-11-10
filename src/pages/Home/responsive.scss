@@ -1,6 +1,16 @@
 #home {
   @media (max-height: 850px) {
-    height: 105vh;
+    height: 115vh;
+  }
+  @media (max-height: 670px) {
+    height: 130vh;
+  }
+
+  @media (max-width: 1293px) {
+    height: 115vh;
+  }
+  @media (max-width: 1075px) {
+    height: 102vh;
   }
 
   main {

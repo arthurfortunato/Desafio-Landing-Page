@@ -4,8 +4,16 @@
     height: calc(100vh + 84px);
   }
 
+  @media (max-height: 800px) {
+    height: 120vh;
+  }
+
+  @media (max-height: 670px) {
+    height: 130vh;
+  }
+
   @media (max-width: 940px) {
-    height: 1247px;
+    height: 1147px;
   }
   @media (max-width: 658px) {
     margin-top: 104px;
