@@ -41,7 +41,7 @@ O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 ## 💻 Projeto
 
-Projeto com o objetivo de replicar o layout da landing page no Figma, deixo responsivo para Wb e Mobile.
+Projeto com o objetivo de replicar o layout da landing page no Figma, deixando responsivo para Web e Mobile.
 
 
  **[Layout Figma](https://www.figma.com/file/ESJgBz1dpcImjUwe4pcLex/Desafio?node-id=0%3A1)**.
